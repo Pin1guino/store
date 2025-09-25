@@ -1,0 +1,12 @@
+CREATE DATABASE kiosco;
+
+USE kiosco;
+
+CREATE TABLE productos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100),
+    categoria VARCHAR(50),
+    precio DECIMAL(10,2),
+    stock INT,
+    stock_minimo INT
+);
